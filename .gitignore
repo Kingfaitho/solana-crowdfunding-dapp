@@ -1,0 +1,6 @@
+node_modules/
+target/
+.anchor/
+.env
+frontend/node_modules/
+frontend/dist/

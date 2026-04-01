@@ -21,6 +21,10 @@ Program ID: `7HWVQUBtomi7pLhThdJzXcYTBPnT9tytm3GZa46p4pee`
 View on Solana Explorer:
 https://explorer.solana.com/address/7HWVQUBtomi7pLhThdJzXcYTBPnT9tytm3GZa46p4pee?cluster=devnet
 
+## Live Demo
+
+Live Demo: https://solana-crowdfunding-dapp-8vbydk2ij-kingfaithos-projects.vercel.app
+
 ## Tests
 
 ```

@@ -42,7 +42,7 @@ export default function CrowdfundingApp() {
   const fetchCampaigns = async () => {
     try {
       const provider = new AnchorProvider(connection, wallet as any, {});
-      const program = new Program(idl as any, provider);
+      const program = new Program(idl as any, provider) as any;
       const allCampaigns = await program.account.campaign.all();
       setCampaigns(allCampaigns.map((c: any) => ({
         pubkey: c.publicKey,
